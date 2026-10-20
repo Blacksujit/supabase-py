@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.34.0](https://github.com/supabase/supabase-py/compare/v2.33.0...v2.34.0) (2026-10-20)
+
+
+### Features
+
+* **postgrest:** add strip_nulls() ([#1760](https://github.com/supabase/supabase-py/issues/1760)) ([c86ec9f](https://github.com/supabase/supabase-py/commit/c86ec9fc538ffc985d5da6961cdb24e629f974ae))
+
+
+### Bug Fixes
+
+* **auth:** send PKCE challenges for email and SSO flows ([#1682](https://github.com/supabase/supabase-py/issues/1682)) ([66cd7ee](https://github.com/supabase/supabase-py/commit/66cd7ee857ff284212e009b2ae861a2e4adf1a3e))
+* **postgrest:** send rpc list args as array literals on GET and HEAD ([#1752](https://github.com/supabase/supabase-py/issues/1752)) ([50e7a4c](https://github.com/supabase/supabase-py/commit/50e7a4c2866a668e5248234e9f36034ef7582c09))
+* **realtime:** cap reconnect backoff at 60 seconds ([#1768](https://github.com/supabase/supabase-py/issues/1768)) ([23ddbca](https://github.com/supabase/supabase-py/commit/23ddbcaa21035e2d0bd4c8ef4392e231f63dea81))
+* **realtime:** restart timeout after resending push ([#1654](https://github.com/supabase/supabase-py/issues/1654)) ([da3a353](https://github.com/supabase/supabase-py/commit/da3a353b8bbdff978f13427413913dfe2dffe808))
+
 ## [2.33.0](https://github.com/supabase/supabase-py/compare/v2.32.0...v2.33.0) (2026-10-15)
 
 
